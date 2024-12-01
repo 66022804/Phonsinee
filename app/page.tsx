@@ -20,7 +20,7 @@ const Nexts: React.FC = () => {
           {/* Profile Section */}
           <section className="text-center mb-10">
             <img
-              src="/B.jpg"
+              src="https://magnumx.me/wp-content/uploads/2023/07/Minji-Newjeans-FanArt-03.jpg"
               alt="Profile Picture"
               className="w-40 h-40 rounded-full mx-auto m-6 border-4 border-pink-300"
             />
