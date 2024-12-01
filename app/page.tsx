@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image'; // Import Image from next/image for optimized image handling
+
 
 const Nexts: React.FC = () => {
   return (
@@ -15,20 +15,22 @@ const Nexts: React.FC = () => {
       </header>
 
       <main className="container mx-auto px-6 py-8 grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Left Column */}
         <aside className="lg:col-span-1 bg-gray-800 p-6 rounded-lg shadow">
+          {/* Profile Section */}
           <section className="text-center mb-10">
-            <Image
-              src="/B.jpg" // Ensure that "B.jpg" is located in the 'public' folder
+            <img
+              src="/B.jpg"
               alt="Profile Picture"
-              width={160} // specify width
-              height={160} // specify height
-              className="rounded-full mx-auto m-6 border-4 border-pink-300"
+              className="w-40 h-40 rounded-full mx-auto m-6 border-4 border-pink-300"
             />
             <h2 className="text-2xl font-semibold text-pink-400 mb-4">PHONSINEE KITCHAAUM</h2>
             <p className="text-gray-400">
               Passionate developer specializing in scalable web applications and modern design.
             </p>
           </section>
+
+          {/* Contact Section */}
           <section className="mb-10">
             <h3 className="text-xl font-semibold text-pink-400">Contact</h3>
             <p>Email: <a href="mailto:66022804@up.ac.th" className="text-pink-300 underline">66022804@up.ac.th</a></p>
@@ -37,6 +39,7 @@ const Nexts: React.FC = () => {
             <p>github: <a href="https://github.com/66022804" className="text-pink-300 underline">6622804</a></p>
           </section>
 
+          {/* Skills Section */}
           <section>
             <h3 className="text-xl font-semibold text-pink-400">Skills</h3>
             <ul className="list-disc list-inside text-gray-400">
@@ -48,6 +51,7 @@ const Nexts: React.FC = () => {
           </section>
         </aside>
 
+        {/* Right Column */}
         <div className="lg:col-span-2 bg-gray-800 p-6 rounded-lg shadow">
           {/* Experience Section */}
           <section className="mb-6">
