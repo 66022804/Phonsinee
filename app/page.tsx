@@ -17,7 +17,6 @@ const Nexts: React.FC = () => {
       <main className="container mx-auto px-6 py-8 grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* Left Column */}
         <aside className="lg:col-span-1 bg-gray-800 p-6 rounded-lg shadow">
-          {/* Profile Section */}
           <section className="text-center mb-10">
             <Image
               src="/B.jpg" // Ensure that "B.jpg" is located in the 'public' folder
