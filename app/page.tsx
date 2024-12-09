@@ -46,7 +46,7 @@ const Nexts: React.FC = () => {
               <li>HTML</li>
               <li>TailwindCSS</li>
               <li>Next.js</li>
-              <li>UI/UX Designer</li>
+              <li>UI/UX Designer</li> <i className="fa-solid fa-shield-halved"></i>
             </ul>
           </section>
         </aside>
